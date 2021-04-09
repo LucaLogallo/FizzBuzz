@@ -28,9 +28,13 @@ var fizz = "fizz";    //variabile fizz
 var buzz = "buzz";    //variabile buzz
 
 for (var i = 0; i < 100; i++) {
-  arrayNumeri[i] = i + 1;
+  arrayNumeri[i] = i + 1 ;
   console.log(arrayNumeri[i]);
 }
+
+console.log(arrayNumeri[0]);
+
+console.log(arrayNumeri.length);
 
 console.log("---------------------------------------");
 
@@ -45,3 +49,28 @@ for (var i = 0; i < 100; i++) {
     console.log(arrayNumeri[i]);
   }
 }
+
+for (var i = 0; i < 100; i++) {
+  console.log(arrayNumeri[i]);
+}
+
+
+console.log("---------------------------------------");
+
+var z = 0;
+
+for (var i = 0; i < 100; i++) {
+  z =i + 1;
+  if(z%3 === 0 && z%5 ===0){
+    console.log(fizz+buzz);
+  }else if(z%3 === 0 ){
+    console.log(fizz);
+  }else if(z%5 ===0){
+    console.log(buzz);
+  }
+  else{
+    console.log(z);
+  }
+}
+
+console.log(z);
