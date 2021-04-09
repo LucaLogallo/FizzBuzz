@@ -32,63 +32,7 @@ for (var i = 0; i < 100; i++) {
   console.log(arrayNumeri[i]);
 }
 
-console.log(arrayNumeri[0]);
-
-/* 
-  -  i=0 si 
-    la posizione numero i di arrayNumeri = 0 + 1; 1
-    i= i+1
-
-  - i=1 si
-    la posizione numero i di arrayNumeri = 1 + 1; 2
-  
-  - i=2 si
-    la posizione numero i di arrayNumeri = 2 + 1; 3
-  
-  - i=3 si
-    la posizione numero i di arrayNumeri = 3 + 1; 4
-
-  - i=4 si
-    la posizione numero i di arrayNumeri = 4 + 1; 5
-    
-*/
-
 console.log("---------------------------------------");
-
-/* 
-  inizializzo array numeri 
-
-  for(dichiaro la i e assegno ad i il valore inziale 0; condizione per il ciclo i<100; incremento i = i++){
-    in posizione i di array numeri assegno il valore di i incrementato di 1 
-    arraynumeri[i]=i+1;
-
-    
-    visualizzo il contenuto in posizione i di array numeri 
-    console.log(arraynumeri[i]);  
-  }
-
-  
-
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 for (var i = 0; i < 100; i++) {
   if (arrayNumeri[i] % 3 === 0 && arrayNumeri[i] % 5 !== 0) {
